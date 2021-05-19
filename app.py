@@ -3,7 +3,7 @@ import re
 import streamlit as st
 
 code = """<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-197493543-4"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-197493543-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
