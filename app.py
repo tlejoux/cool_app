@@ -1,6 +1,3 @@
-import streamlit as st
-st.title("Hello world")
-
 import os
 import re
 
@@ -20,3 +17,7 @@ with open(a, 'r') as f:
         with open(a, 'w') as f:
             newdata=re.sub('<head>','<head>' + code, data)
             f.write(newdata)
+            
+import streamlit as st
+st.title("Hello world")
+
