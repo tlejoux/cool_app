@@ -8,7 +8,7 @@ code = """<!-- Global site tag (gtag.js) - Google Analytics -->
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-XXXXXXXXX-4');
+  gtag('config', 'UA-197493543-1);
 </script>"""
 
 a=os.path.dirname(st.__file__) + '/static/index.html'
